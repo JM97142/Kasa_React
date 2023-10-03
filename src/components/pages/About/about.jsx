@@ -1,8 +1,11 @@
-import Header from '../../Header.js';
-import '../../style/about.css';
+import '../../Style/about.css';
 
 function About() {
-    return < Header />
+    return (
+        <div>
+            <h1>À propos</h1>
+        </div>
+    )
 }
 
 export default About
