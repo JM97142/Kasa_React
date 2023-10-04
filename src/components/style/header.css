@@ -1,11 +1,22 @@
-.header {
+.kasa-header {
+    display: flex;
     width: 1240px;
     height: 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 720.678px;
+}
+
+.kasa-logo {
+    width: 210.322px;
+    height: 68px;
+    flex-shrink: 0;
 }
 
 .nav {
+    display: flex;
+    align-items: flex-start;
     font-weight: 500;
     font-size: 24px;
-    text-align: right;
-    color: #FF6060;
+    gap: 57px;
 }

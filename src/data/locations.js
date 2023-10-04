@@ -1,4 +1,4 @@
-[
+export const locations = [
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -617,3 +617,15 @@
 		]
 	}
 ]
+
+function locationList() {
+	return (
+		<div>
+			{locationList.map((location) => (
+				<h1>{location}</h1>
+			))}
+		</div>
+	)
+}
+
+export default locationList;
