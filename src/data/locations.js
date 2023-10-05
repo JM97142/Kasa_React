@@ -1,4 +1,4 @@
-export const locations = [
+export const listLocations = [
 	{
 		"id": "c67ab8a7",
 		"title": "Appartement cosy",
@@ -618,14 +618,9 @@ export const locations = [
 	}
 ]
 
-function locationList() {
-	return (
-		<div>
-			{locationList.map((location) => (
-				<h1>{location}</h1>
-			))}
-		</div>
+export default function List() {
+	const titleLocation = listLocations.map(location =>
+		<div>{location.title}</div>
 	)
+	return <h1>{titleLocation}</h1>
 }
-
-export default locationList;

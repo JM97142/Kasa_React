@@ -1,13 +1,12 @@
 import '../../Style/index.css';
 import Card from '../../Card/card'
+import List from '../../../data/locations';
 
 function App() {
-  const Mylocation = { title: 'toto' };
   return (
-    <div>
-      <h1 className='title'>Accueil</h1>
-      <Card location={Mylocation} />
-    </div>
+    <section className='card-section'>
+      <List />
+    </section>
   )
 }
 
