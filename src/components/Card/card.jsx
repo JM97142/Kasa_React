@@ -1,8 +1,16 @@
+import { listLocations } from "../../data/locations";
+import '../Style/card.css';
+
 function Card(props) {
-    return (
-        <div className="card">
-            <h1>{props.location.title}</h1>
+    // Récupération du titre des logements
+    const titleLocation = listLocations.map(location =>
+        <div>
+            <h1>{location.title}</h1>
         </div>
+    )
+
+    return (
+        <div className="card-location">{titleLocation}</div>
     )
 }
 

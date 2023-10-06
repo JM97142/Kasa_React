@@ -1,11 +1,12 @@
 import '../../Style/index.css';
 import Card from '../../Card/card'
-import List from '../../../data/locations';
+import Banner from '../../Banner/banner'
 
 function App() {
   return (
-    <section className='card-section'>
-      <List />
+    <section className='home-body'>
+      <Banner />
+      <Card />
     </section>
   )
 }

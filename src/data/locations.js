@@ -617,10 +617,3 @@ export const listLocations = [
 		]
 	}
 ]
-
-export default function List() {
-	const titleLocation = listLocations.map(location =>
-		<div>{location.title}</div>
-	)
-	return <h1>{titleLocation}</h1>
-}
