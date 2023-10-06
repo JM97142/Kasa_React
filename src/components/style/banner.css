@@ -1,4 +1,7 @@
 .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1240px;
     height: 223px;
     flex-shrink: 0;

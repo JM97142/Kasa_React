@@ -1,16 +1,21 @@
-.card-location {
+.card-wrap {
     display: flex;
-    justify-content: space-between;
-    width: 1440px;
-    height: 829px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1240px;
     flex-shrink: 0;
     border-radius: 25px;
+    padding: 50px;
     background: #F6F6F6;
 }
 
-.card-location div {
+.card-name {
+    display: flex;
+    align-items: flex-end;
     width: 340px;
     height: 340px;
     flex-shrink: 0;
+    border-radius: 10px;
     background-color: #FF6060;
+    padding: 15px;
 }

@@ -4,13 +4,11 @@ import '../Style/card.css';
 function Card(props) {
     // Récupération du titre des logements
     const titleLocation = listLocations.map(location =>
-        <div>
-            <h1>{location.title}</h1>
-        </div>
+        <h2 key={location.id} className="card-name">{location.title}</h2>
     )
 
     return (
-        <div className="card-location">{titleLocation}</div>
+        <div className="card-wrap">{titleLocation}</div>
     )
 }
 

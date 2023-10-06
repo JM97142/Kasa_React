@@ -5,7 +5,9 @@ import Banner from '../../Banner/banner'
 function App() {
   return (
     <section className='home-body'>
-      <Banner />
+      <div className='homme-banner'>
+        <Banner />
+      </div>
       <Card />
     </section>
   )
