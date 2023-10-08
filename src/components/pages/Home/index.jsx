@@ -1,7 +1,9 @@
 import '../../Style/index.css';
+// Components
 import Card from '../../Card/card'
 import Banner from '../../Banner/banner'
 import imgBanner from '../../Assets/home_banner.png'
+// Data
 import { listLocations } from '../../../data/locations';
 
 function App() {
@@ -13,9 +15,7 @@ function App() {
 
   return (
     <div className='home-body'>
-      <div className='home-banner'>
-        <Banner image={imgBanner} title={titleBanner} />
-      </div>
+      <Banner image={imgBanner} title={titleBanner} />
       <Card title={titleLocation} />
     </div>
   )

@@ -1,0 +1,23 @@
+.about-body {
+    display: inline-flex;
+    padding-top: 45px;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 50px;
+}
+
+.about-btn {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 1023px;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: #FFF;
+    background: var(--Red, #FF6060);
+}

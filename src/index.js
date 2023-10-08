@@ -9,7 +9,7 @@ import Home from './components/pages/Home/'
 import About from './components/pages/About/about'
 import Error from './components/pages/Error/404'
 // Style
-// import './index.css';
+import './index.css';
 
 const contenair = document.getElementById('root');
 const root = createRoot(contenair);

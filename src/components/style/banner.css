@@ -10,6 +10,7 @@
 .banner-img {
     object-fit: cover;
     border-radius: 25px;
+    opacity: 0.3;
 }
 
 .banner h1 {
