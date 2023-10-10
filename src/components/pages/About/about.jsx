@@ -1,21 +1,14 @@
 import '../../Style/about.css';
 // Components
-import Banner from '../../Banner/banner';
+import Banner from '../../Banner/Banner';
 import imgBanner from '../../Assets/about_banner.png';
-import Dropdown from '../../Dropdown/dropdown';
-// Data
-import { aboutContent } from '../../../data/aboutContent';
+import CollapseList from '../../CollapseList/CollapseList';
 
 function About() {
-    const titleDropdown = aboutContent.map((content, index) =>
-        <button key={index} className='about-btn'>{content.title}</button>
-    )
-
-
     return (
         <div className='about-body'>
             <Banner image={imgBanner} />
-            <Dropdown title={titleDropdown} />
+            <CollapseList />
         </div>
     )
 }
