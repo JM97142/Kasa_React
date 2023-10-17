@@ -14,9 +14,7 @@
 }
 
 .nav {
-    display: flex;
-    align-items: flex-start;
-    font-weight: 500;
+    font-family: Montserrat;
     font-size: 24px;
-    gap: 57px;
+    margin-left: 57px;
 }

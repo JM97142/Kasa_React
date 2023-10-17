@@ -1,6 +1,8 @@
 import '../Style/card.css';
-import Cards from '../Cards/Cards';
+// Data
 import { listLocations } from '../../data/locations';
+// Components
+import Cards from '../Cards/Cards';
 
 function CardsList() {
     return (

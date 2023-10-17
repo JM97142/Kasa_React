@@ -1,8 +1,8 @@
-import '../../Style/about.css';
+import '../../Style/about.css'
 // Components
-import Banner from '../../Banner/Banner';
-import imgBanner from '../../Assets/about_banner.png';
-import CollapseList from '../../CollapseList/CollapseList';
+import Banner from '../../Banner/Banner'
+import imgBanner from '../../Assets/about_banner.png'
+import CollapseList from '../../CollapseList/CollapseList'
 
 function About() {
     return (
@@ -13,4 +13,4 @@ function About() {
     )
 }
 
-export default About
+export default About;

@@ -1,11 +1,11 @@
-import '../../Style/index.css';
+import '../../Style/index.css'
 // Components
-import CardsList from '../../CardsList/CardsList';
-import Banner from '../../Banner/Banner';
+import CardsList from '../../CardsList/CardsList'
+import Banner from '../../Banner/Banner'
 import imgBanner from '../../Assets/home_banner.png'
 
 function App() {
-  const titleBanner = 'Chez vous, partout et ailleurs';
+  const titleBanner = 'Chez vous, partout et ailleurs'
 
   return (
     <div className='home-body'>
