@@ -1,0 +1,7 @@
+.slideshow-img {
+    width: 1240px;
+    height: 415px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    object-fit: cover;
+}

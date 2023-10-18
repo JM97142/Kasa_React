@@ -1,0 +1,10 @@
+.location-wrapper {
+    display: flex;
+    padding-top: 45px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.slideshow-wrapper {
+    margin: 0 auto;
+}

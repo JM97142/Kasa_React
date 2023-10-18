@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 // Data
 import { listLocations } from "../../../data/locations"
 // Components
+import Slideshow from "../../Slideshow/Slighshow"
 import Error from "../Error/404";
 
 import '../../Style/logement.css'
@@ -14,7 +15,7 @@ function Logement() {
 
     return locationId ? (
         <div className="location-wrapper">
-            {locationId.title}
+            <Slideshow pictures={locationId.pictures} />
         </div>
     ) : (
         <Error />
