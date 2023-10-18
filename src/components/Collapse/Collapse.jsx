@@ -1,4 +1,4 @@
-import '../Style/dropdown.css'
+import '../Style/collapse.css'
 
 function Collapse(props) {
 
