@@ -69,3 +69,7 @@
     font-size: 14px;
     line-height: 142.6%;
 }
+
+.location-btn {
+    display: flex;
+}

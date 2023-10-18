@@ -35,7 +35,8 @@ function Logement() {
                 </div>
             </div>
             <div className="location-btn">
-                {/* <Collapse /> */}
+                <Collapse title='Description' description={locationId.description} />
+                <Collapse title='Équipements' description={locationId.equipments} />
             </div>
         </div>
     ) : (
