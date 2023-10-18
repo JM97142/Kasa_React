@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import { listLocations } from "../../../data/locations"
 // Components
 import Slideshow from "../../Slideshow/Slighshow"
-import CollapseList from "../../CollapseList/CollapseList";
+import Collapse from "../../Collapse/Collapse";
 import Rating from "../../Rating/Rating";
 import Error from "../Error/404";
 
@@ -35,7 +35,7 @@ function Logement() {
                 </div>
             </div>
             <div className="location-btn">
-                {/* <CollapseList /> */}
+                {/* <Collapse /> */}
             </div>
         </div>
     ) : (
