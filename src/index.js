@@ -3,8 +3,8 @@ import React from 'react'
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 // Components
-import Header from './components/Header/header'
-import Footer from './components/Footer/footer'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import Home from './components/pages/Home/'
 import About from './components/pages/About/About'
 import Logement from './components/pages/Logement/Logement';
