@@ -6,6 +6,7 @@
 
 .collapse-btn button {
     display: flex;
+    justify-content: space-between;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -16,6 +17,12 @@
     border-radius: 5px;
     color: #FFF;
     background: var(--Red, #FF6060);
+}
+
+.collapse-arrow {
+    width: 32px;
+    height: 32px;
+    transform: rotate(-180deg);
 }
 
 .collapse-btn-content {
@@ -31,4 +38,8 @@
 
 .isClicked {
     display: block;
+}
+
+.rotate {
+    transform: rotate(0);
 }

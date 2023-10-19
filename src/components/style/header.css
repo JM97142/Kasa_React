@@ -13,7 +13,7 @@
     flex-shrink: 0;
 }
 
-.nav {
+.nav a {
     font-family: Montserrat;
     font-size: 24px;
     margin-left: 57px;
