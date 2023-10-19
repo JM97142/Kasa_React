@@ -8,7 +8,7 @@ function App() {
   const titleBanner = 'Chez vous, partout et ailleurs'
 
   return (
-    <div className='home-body'>
+    <div className='home-wrapper'>
       <Banner image={imgBanner} title={titleBanner} />
       <CardsList />
     </div>

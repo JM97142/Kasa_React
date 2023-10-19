@@ -6,9 +6,9 @@ function Collapse(props) {
     const [isBtnClicked, setIsBtnClicked] = useState(false)
 
     return (
-        <div>
-            <button className='about-btn' onClick={() => setIsBtnClicked(!isBtnClicked)}>{props.title}</button>
-            <p className={'about-btn-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>
+        <div className='collapse-btn'>
+            <button onClick={() => setIsBtnClicked(!isBtnClicked)}>{props.title}</button>
+            <p className={'collapse-btn-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>
         </div >
     )
 }

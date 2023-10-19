@@ -3,3 +3,32 @@
     flex-direction: column;
     align-items: center;
 }
+
+.collapse-btn button {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 1023px;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: #FFF;
+    background: var(--Red, #FF6060);
+}
+
+.collapse-btn-content {
+    display: none;
+    width: 1000px;
+    padding: 11px;
+    background-color: #F6F6F6;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 142.6%;
+}
+
+.isClicked {
+    display: block;
+}

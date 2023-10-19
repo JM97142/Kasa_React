@@ -6,11 +6,11 @@ function Rating(props) {
 
     return (
         <div className="rating-wrapper">
-            {range.map((number) =>
-                props.rating >= number ? (
-                    <img src={starFull} alt='' key={number.toString()} />
+            {range.map((value) =>
+                props.rating >= value ? (
+                    <img src={starFull} alt='' key={value.toString()} />
                 ) : (
-                    <img src={starEmpty} alt='' key={number.toString()} />
+                    <img src={starEmpty} alt='' key={value.toString()} />
                 )
             )}
         </div>

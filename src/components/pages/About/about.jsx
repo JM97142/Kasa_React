@@ -9,7 +9,7 @@ import '../../Style/about.css'
 
 function About() {
     return (
-        <div className='about-body'>
+        <div className='about-wrapper'>
             <Banner image={imgBanner} />
             <div className='btn-wrapper'>
                 {aboutContent.map((content, index) =>
