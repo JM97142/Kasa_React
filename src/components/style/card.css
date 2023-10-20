@@ -25,17 +25,24 @@
 .card-name {
     font-family: Montserrat;
     font-size: 18px;
+    font-weight: 500;
     line-height: 142.6%;
 }
 
+/* MEDIA QUIERIES */
 @media (max-width: 659px) {
     .card-wrapper {
+        width: auto;
         flex-direction: column;
+        background-color: #FFF;
     }
 
     .card-link {
-        width: 335px;
-        height: 255px;
-        flex-shrink: 0;
+        width: 1050px;
+        height: 800px;
+    }
+
+    .card-name {
+        font-size: 70px;
     }
 }

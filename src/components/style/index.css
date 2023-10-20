@@ -4,3 +4,9 @@
   align-items: center;
   padding-top: 45px;
 }
+
+@media (max-width: 659px) {
+  .home-wrapper {
+    width: auto;
+  }
+}

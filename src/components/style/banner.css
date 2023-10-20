@@ -16,8 +16,28 @@
     position: absolute;
     font-family: Montserrat;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
     color: #FFF;
+}
+
+/* MEDIA QUIERIES */
+@media (max-width: 659px) {
+    .banner {
+        width: auto;
+        height: auto;
+        justify-content: start;
+    }
+
+    .banner-img {
+        width: 1050px;
+        height: 300px;
+    }
+
+    .banner h1 {
+        width: 700px;
+        padding-left: 20px;
+        font-size: 70px;
+        line-height: 100%;
+    }
 }
