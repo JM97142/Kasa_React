@@ -9,6 +9,7 @@
     justify-content: space-between;
     font-family: Montserrat;
     font-size: 24px;
+    font-weight: 500;
     width: 1023px;
     padding: 10px 20px 10px 15px;
     margin-bottom: 30px;
@@ -32,6 +33,7 @@
     color: #FF6060;
     font-family: Montserrat;
     font-size: 18px;
+    font-weight: 500;
     line-height: 142.6%;
 }
 
@@ -41,4 +43,30 @@
 
 .rotate {
     transform: rotate(0);
+}
+
+
+/* MEDIA QUIERIES */
+@media (max-width: 659px) {
+    .btn-wrapper {
+        width: auto;
+    }
+
+    .collapse-btn {
+        width: 1050px;
+        height: 100px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        font-size: 50px;
+        align-items: center;
+    }
+
+    .collapse-arrow {
+        width: 50px;
+        height: 50px;
+    }
+
+    .collapse-btn-content {
+        font-size: 45px;
+    }
 }
