@@ -5,8 +5,6 @@ import Banner from '../../Banner/Banner'
 import imgBanner from '../../Assets/about_banner.png'
 import Collapse from '../../Collapse/Collapse'
 
-import '../../Style/about.css'
-
 function About() {
     return (
         <div className='about-wrapper'>

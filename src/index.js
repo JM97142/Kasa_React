@@ -9,7 +9,7 @@ import Home from './components/pages/Home/'
 import About from './components/pages/About/About'
 import Logement from './components/pages/Logement/Logement';
 import Error from './components/pages/Error/404'
-// Style
+// CSS
 import './index.css';
 
 const contenair = document.getElementById('root');

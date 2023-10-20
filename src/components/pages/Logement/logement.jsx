@@ -7,9 +7,6 @@ import Collapse from "../../Collapse/Collapse";
 import Rating from "../../Rating/Rating";
 import Error from "../Error/404";
 
-import '../../Style/logement.css'
-
-
 function Logement() {
     const { id } = useParams();
     const locationId = listLocations.find(location =>

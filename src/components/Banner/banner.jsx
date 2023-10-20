@@ -1,5 +1,3 @@
-import '../Style/banner.css'
-
 function Banner(props) {
     return (
         <div className="banner">

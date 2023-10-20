@@ -1,4 +1,3 @@
-import '../Style/card.css';
 // Data
 import { listLocations } from '../../data/locations';
 // Components

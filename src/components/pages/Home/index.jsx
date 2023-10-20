@@ -1,4 +1,3 @@
-import '../../Style/index.css'
 // Components
 import CardsList from '../../CardsList/CardsList'
 import Banner from '../../Banner/Banner'

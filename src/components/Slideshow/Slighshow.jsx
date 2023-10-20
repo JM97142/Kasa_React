@@ -1,5 +1,4 @@
 import { useState } from "react";
-import '../Style/slideshow.css'
 
 function Slideshow(props) {
     const [slideshowId, setSlideshowId] = useState(0);
