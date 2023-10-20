@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom"
 // Data
-import { listLocations } from "../../../data/locations"
+import { listLocations } from "../../data/locations"
 // Components
-import Slideshow from "../../Slideshow/Slighshow"
-import Collapse from "../../Collapse/Collapse";
-import Rating from "../../Rating/Rating";
-import Error from "../Error/404";
+import Slideshow from "../../components/Slideshow/Slideshow.jsx"
+import Collapse from "../../components/Collapse/Collapse.jsx";
+import Rating from "../../components/Rating/Rating.jsx";
+import Error from "../Error/404.jsx";
 
 function Logement() {
     const { id } = useParams();

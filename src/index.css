@@ -136,8 +136,6 @@ code {
 }
 
 .collapse-arrow {
-  width: 32px;
-  height: 32px;
   transform: rotate(-180deg);
 }
 
@@ -164,6 +162,16 @@ code {
 /* SLIDESHOW */
 .slideshow-wrapper {
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.control-left,
+.control-right {
+  position: absolute;
+  width: auto;
+  border: none;
+  background: none;
 }
 
 .slideshow-img {
@@ -450,6 +458,10 @@ code {
 
   .location-name h3 {
     font-size: 50px;
+  }
+
+  .location-host {
+    align-self: flex-end;
   }
 
   .location-host h3 {

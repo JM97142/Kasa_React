@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // Components
-import Arrow from '../Assets/fleche-collapse.png'
+import Arrow from '../../assets/fleche.png'
 
 function Collapse(props) {
     const [isBtnClicked, setIsBtnClicked] = useState(false)
@@ -9,7 +9,6 @@ function Collapse(props) {
         <div className='collapse'>
             <button className='collapse-btn' onClick={() => setIsBtnClicked(!isBtnClicked)}>
                 {props.title}
-                {/* <i class="fa-solid fa-chevron-up"></i> */}
                 <img src={Arrow} alt='' className={'collapse-arrow' + (isBtnClicked ? ' rotate' : '')} />
             </button>
             <p className={'collapse-btn-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>

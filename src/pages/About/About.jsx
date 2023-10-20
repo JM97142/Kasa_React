@@ -1,9 +1,9 @@
 //Data
-import { aboutContent } from '../../../data/aboutContent'
+import { aboutContent } from '../../data/aboutContent.js'
 // Components
-import Banner from '../../Banner/Banner'
-import imgBanner from '../../Assets/about_banner.png'
-import Collapse from '../../Collapse/Collapse'
+import Banner from '../../components/Banner/Banner.jsx'
+import imgBanner from '../../assets/about_banner.png'
+import Collapse from '../../components/Collapse/Collapse.jsx'
 
 function About() {
     return (

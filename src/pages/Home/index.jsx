@@ -1,7 +1,7 @@
 // Components
-import CardsList from '../../CardsList/CardsList'
-import Banner from '../../Banner/Banner'
-import imgBanner from '../../Assets/home_banner.png'
+import CardsList from '../../components/CardsList/CardsList.jsx'
+import Banner from '../../components/Banner/Banner.jsx'
+import imgBanner from '../../assets/home_banner.png'
 
 function App() {
   const titleBanner = 'Chez vous, partout et ailleurs'
