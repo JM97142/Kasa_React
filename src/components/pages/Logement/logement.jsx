@@ -29,10 +29,12 @@ function Logement() {
                 </div>
             </div>
             <div className="location-tags">
-                <h3>{locationId.tags}</h3>
-                <div className="location-ratings">
-                    <Rating rating={locationId.rating} />
+                <div className="tags">
+                    {locationId.tags.map((tag, index) =>
+                        <h3 key={index}>{tag}</h3>
+                    )}
                 </div>
+                <Rating rating={locationId.rating} />
             </div>
             <div className="location-btn">
                 <Collapse title='Description' description={locationId.description} />
