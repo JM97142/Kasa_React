@@ -1,7 +1,5 @@
 import Logo from '../Assets/logo.svg';
 
-import '../Style/footer.css';
-
 function Header() {
     return (
         <div className="footer">
