@@ -42,10 +42,11 @@ code {
   margin-left: 57px;
   font-weight: 500;
   text-decoration: none;
+  color: #FF6060;
 }
 
-.nav a:active {
-  text-decoration: none;
+.nav a:focus {
+  text-decoration: underline;
 }
 
 /* BANNER */
@@ -61,6 +62,7 @@ code {
 .banner-img {
   object-fit: cover;
   border-radius: 25px;
+  filter: brightness(70%);
 }
 
 .banner h1 {
@@ -102,6 +104,7 @@ code {
   font-size: 18px;
   font-weight: 500;
   line-height: 142.6%;
+  color: #FFF;
 }
 
 /* ABOUT */
@@ -123,6 +126,7 @@ code {
 
 .collapse {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .collapse-btn {
@@ -133,7 +137,7 @@ code {
   font-weight: 500;
   width: 100%;
   padding: 10px 20px 10px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   border-radius: 5px;
   border: none;
   color: #FFF;
@@ -146,6 +150,7 @@ code {
 
 .collapse-content {
   display: none;
+  margin: 0;
   width: 98%;
   padding: 11px;
   background-color: #F6F6F6;
@@ -249,6 +254,7 @@ code {
 .location-wrapper {
   display: flex;
   padding-top: 45px;
+  padding-bottom: 30px;
   flex-direction: column;
   gap: 50px;
 }
@@ -322,6 +328,15 @@ code {
   display: flex;
   width: 1240px;
   justify-content: space-between;
+}
+
+.location-btn div {
+  width: 45%;
+}
+
+/* RATE */
+.rating-wrapper {
+  margin-top: 20px;
 }
 
 /* FOOTER */
@@ -422,12 +437,13 @@ code {
 
   .collapse {
     width: 1050px;
+    margin-bottom: 50px;
   }
 
   .collapse-btn {
     width: 100%;
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     border-radius: 15px;
     font-size: 50px;
     align-items: center;
@@ -440,6 +456,7 @@ code {
 
   .collapse-content {
     font-size: 45px;
+    margin: 0;
   }
 
   /* SLIDESHOW */
@@ -524,9 +541,13 @@ code {
   }
 
   .location-btn {
-    width: auto;
+    width: 1050px;
     display: flex;
     flex-direction: column;
+  }
+
+  .location-btn div {
+    width: 100%;
   }
 
   .rating-wrapper img {

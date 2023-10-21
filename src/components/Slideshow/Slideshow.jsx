@@ -27,9 +27,6 @@ function Slideshow(props) {
                 </button>
             </div>
             <img src={props.pictures[slideshowIndex]} alt="" className="slideshow-img" />
-            {/* <div className="slideshow-number">
-                <p>{slideshowIndex + 1}/{props.pictures.length}</p>
-            </div> */}
         </div>
     )
 }
