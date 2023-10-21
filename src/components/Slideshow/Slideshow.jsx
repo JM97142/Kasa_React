@@ -17,13 +17,19 @@ function Slideshow(props) {
 
     return (
         <div className="slideshow-wrapper">
-            <button className="control-left" onClick={() => previousImg()}>
-                <img src={arrowLeft} alt="" />
-            </button>
+            <div className="slideshow-controls">
+                <button className="control-left" onClick={() => previousImg()}>
+                    <img src={arrowLeft} alt="" />
+                </button>
+                <p className="slideshow-number">{slideshowIndex + 1}/{props.pictures.length}</p>
+                <button className="control-right" onClick={() => nextImg()}>
+                    <img src={arrowRight} alt="" />
+                </button>
+            </div>
             <img src={props.pictures[slideshowIndex]} alt="" className="slideshow-img" />
-            <button className="control-right" onClick={() => nextImg()}>
-                <img src={arrowRight} alt="" />
-            </button>
+            {/* <div className="slideshow-number">
+                <p>{slideshowIndex + 1}/{props.pictures.length}</p>
+            </div> */}
         </div>
     )
 }
