@@ -137,7 +137,7 @@ code {
   font-weight: 500;
   width: 100%;
   padding: 10px 20px 10px 15px;
-  margin-bottom: 0;
+  margin: 0;
   border-radius: 5px;
   border: none;
   color: #FFF;
@@ -145,7 +145,8 @@ code {
 }
 
 .collapse-arrow {
-  transform: rotate(-180deg);
+  transform: rotate(180deg);
+  transition: all .5s ease;
 }
 
 .collapse-content {
