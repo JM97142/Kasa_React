@@ -16,22 +16,22 @@ function Logement() {
         <div className="location-wrapper">
             <Slideshow pictures={locationId.pictures} />
             <div className="location-header">
-                <div className="location-name">
-                    <h2>{locationId.title}</h2>
-                    <h3>{locationId.location}</h3>
+                <div className="location-content">
+                    <h2 className="location-title">{locationId.title}</h2>
+                    <h3 className="location-location">{locationId.location}</h3>
+                    <div className="tags">
+                        {locationId.tags.map((tag, index) =>
+                            <h3 key={index}>{tag}</h3>
+                        )}
+                    </div>
                 </div>
-                <div className="location-host">
-                    <h3>{locationId.host.name}</h3>
-                    <img src={locationId.host.picture} alt="" className="host-img" />
+                <div className="location-tags">
+                    <div className="location-host">
+                        <h3>{locationId.host.name}</h3>
+                        <img src={locationId.host.picture} alt="" className="host-img" />
+                    </div>
+                    <Rating rating={locationId.rating} />
                 </div>
-            </div>
-            <div className="location-tags">
-                <div className="tags">
-                    {locationId.tags.map((tag, index) =>
-                        <h3 key={index}>{tag}</h3>
-                    )}
-                </div>
-                <Rating rating={locationId.rating} />
             </div>
             <div className="location-btn">
                 <Collapse title='Description' description={locationId.description} />

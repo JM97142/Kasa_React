@@ -11,7 +11,7 @@ function Collapse(props) {
                 {props.title}
                 <img src={Arrow} alt='' className={'collapse-arrow' + (isBtnClicked ? ' rotate' : '')} />
             </button>
-            <p className={'collapse-btn-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>
+            <p className={'collapse-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>
         </div >
     )
 }
