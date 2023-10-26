@@ -11,8 +11,16 @@ function Collapse(props) {
                 {props.title}
                 <img src={Arrow} alt='' className={'collapse-arrow' + (isBtnClicked ? ' rotate' : '')} />
             </button>
-            <p className={'collapse-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>
-        </div >
+            {(props.content) ? (
+                <ul className={'collapse-content' + (isBtnClicked ? ' isClicked' : '')}>
+                    {props.content.map((equipment, index) => (
+                        <li key={index}>{equipment}</li>
+                    ))}
+                </ul>
+            ) : (
+                <p className={'collapse-content' + (isBtnClicked ? ' isClicked' : '')}>{props.description}</p>
+            )}
+        </div>
     )
 }
 
