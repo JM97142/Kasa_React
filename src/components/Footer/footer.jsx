@@ -1,4 +1,5 @@
 import Logo from '../../assets/logo.svg';
+import './footer.css'
 
 function Header() {
     return (

@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+import './error.css'
+
 function Error() {
     return (
         <div className='error-wrapper'>

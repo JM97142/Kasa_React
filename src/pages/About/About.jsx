@@ -4,6 +4,7 @@ import { aboutContent } from '../../data/aboutContent.js'
 import Banner from '../../components/Banner/Banner.jsx'
 import imgBanner from '../../assets/about_banner.png'
 import Collapse from '../../components/Collapse/Collapse.jsx'
+import './about.css'
 
 function About() {
     return (

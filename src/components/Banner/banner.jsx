@@ -1,3 +1,5 @@
+import './banner.css'
+
 function Banner(props) {
     return (
         <div className="banner">

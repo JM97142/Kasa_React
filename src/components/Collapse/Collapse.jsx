@@ -1,6 +1,7 @@
 import { useState } from 'react'
 // Components
 import Arrow from '../../assets/fleche.png'
+import './collapse.css'
 
 function Collapse(props) {
     const [isBtnClicked, setIsBtnClicked] = useState(false)

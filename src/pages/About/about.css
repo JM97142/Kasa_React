@@ -1,0 +1,7 @@
+.about-wrapper {
+    display: flex;
+    padding-top: 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}

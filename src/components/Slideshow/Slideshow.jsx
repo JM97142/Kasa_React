@@ -2,6 +2,7 @@ import { useState } from "react"
 
 import arrowLeft from '../../assets/fleche-gauche.png'
 import arrowRight from '../../assets/fleche-droite.png'
+import './slideshow.css'
 
 function Slideshow(props) {
     const [slideshowIndex, setSlideshowIndex] = useState(0);
